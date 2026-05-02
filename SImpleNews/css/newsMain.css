@@ -1,0 +1,122 @@
+main {
+    width: 1230px;
+    margin: 36px auto;
+    display: grid;
+    grid-template-areas: 
+    "statistics-container full-news-container full-news-container last-news";
+    gap: 40px;
+}
+
+.user-comment-image {
+    margin-right: 18px;
+}
+
+.statistics-container {
+    position: fixed;
+    top: 380px;
+    grid-area: statistics-container;
+}
+
+.statistics-container div {
+    display: flex;
+    align-items: center;
+    color: grey;
+    margin-bottom: 16px;
+}
+
+.statistics-container div img {
+    margin-right: 12px;
+}
+
+.full-news-container {
+    grid-area: full-news-container;
+    margin-left: 140px;
+}
+
+.full-news-container h1 {
+    font-size: 35px;
+}
+
+.full-news-container > img {
+    width: 100%;
+    margin: 32px 0;
+}
+
+.full-news-container .full-text p {
+    margin-bottom: 32px;
+    font-size: 18px;
+}
+
+.full-news-container .name {
+    color: grey;
+    font-size: 16px;
+}
+
+.full-news-container .name span {
+    color: #000;
+}
+
+.full-news-container .add-container {
+    margin: 64px 0px;
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+}
+
+.add-container > div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-container > div input {
+    height: 40%;
+    border: 0px;
+    font-size: 16px;
+}
+
+.button-container {
+    display: flex;
+    align-items: end;
+}
+
+.added-comment-container > .comment-container {
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+}
+
+.added-comment-container .comment-container .username {
+    color: #000;
+    font-weight: 600;
+    display: block;
+}
+
+.added-comment-container .comment-container .comment-text {
+    margin: 16px 0px;
+}
+
+.added-comment-container .comment-container .answer {
+    color: grey;
+    display: block;
+}
+
+.added-comment-container .comment-container .hide-show {
+    color: #FF1850;
+}
+
+.added-comment-container .comment-container .hide-show img {
+    margin-right: 10px;
+}
+
+.added-comment-container .comment-container .edit {
+    color: grey;
+}
+
+.added-comment-container .comment-container .comment-container {
+    display: grid;
+    grid-template-columns: 1fr 11fr;
+    margin-top: 16px;
+}
+
+.last-news {
+    grid-area: last-news;
+}

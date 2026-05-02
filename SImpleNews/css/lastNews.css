@@ -1,0 +1,18 @@
+.last-news {
+    grid-area: last-news;
+}
+
+.last-news h2 {
+    margin-bottom: 28px;
+    font-size: 20px;
+}
+
+.last-news .last-news-container .news {
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+.last-news .last-news-container .news span {
+    color: grey;
+    margin-right: 10px;
+}   

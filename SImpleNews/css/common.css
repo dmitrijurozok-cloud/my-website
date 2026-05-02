@@ -1,0 +1,48 @@
+.tag {
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 6px 16px;
+    margin: 18px 0px;
+}
+
+div.yellow {
+    background-color: #E7C652;
+}
+
+div.green {
+    background-color: #68E082;
+}
+
+div.blue {
+    background-color: #609FFF;
+}
+
+div.red {
+    background-color: #F34C4C;
+}
+
+.info-container {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.info-container .data {
+    font-size: 12px;
+    color: grey;
+}
+
+.button-container .add-button {
+    background-color: #FF1850;
+    color: #fff;
+}
+
+.button-container button {
+    border: 0px;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 16px 20px; 
+}
